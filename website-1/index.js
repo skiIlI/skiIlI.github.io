@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function logInput() {
         let addOn = inputV.value
-        addOn = addOn / 599.4167
-        addOn = addOn * 27.63819357299415
+        addOn = addOn / 1084.3994
+        addOn = addOn * 50
         outputP.textContent += "\r\n" + addOn
         outputP.scrollTop = outputP.scrollHeight;
         navigator.clipboard.writeText(addOn);
