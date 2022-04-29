@@ -1,18 +1,125 @@
 .AFrame {
-  user-select: none;
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-  background: #252525;
-  color: #A2A1A1;
-  letter-spacing: .01rem;
-  /**/
-  flex-flow: column nowrap;
-  font-family: 'Source Sans Pro', sans-serif;
-  border-radius: .655vmin;
-  overflow: hidden;
-  transition: opacity .3s ease-in-out;
+    user-select: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background: #252525;
+    color: #A2A1A1;
+    letter-spacing: .01rem;
+    /**/
+    flex-flow: column nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: .655vmin;
+    overflow: hidden;
+    transition: opacity .3s ease-in-out;
+}
+
+.Abg1 {
+    position: absolute;
+    top: 0%;
+    height: 15%;
+    width: 100%;
+    z-index: -1;
+    background: #252525
+}
+
+.Abg2 {
+    position: absolute;
+    top: 15%;
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+    background: #1E1E1F;
+}
+
+.Abg3 {
+    position: absolute;
+    top: 55%;
+    height: 18%;
+    width: 100%;
+    z-index: -1;
+    background: #252525;
+}
+
+.Abg4 {
+    position: absolute;
+    top: 73%;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    background: #1E1E1F;
+}
+
+.Abg5 {
+    position: absolute;
+    top: 83%;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    background: #252525;
+}
+
+.Abg6 {
+    position: absolute;
+    top: 93%;
+    height: 7%;
+    width: 100%;
+    z-index: -1;
+    background: #151515;
+}
+
+.Ah1 {
+    height: 11%;
+    background: #151515;
+    z-index: 110;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Ah1i1 {
+    height: 20%;
+    width: 28.169109012%;
+    position: absolute;
+    left: 4.947007666%;
+    background-image: url("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/VapeLogo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Ah1i2 {
+    height: 20%;
+    width: 12.232354476%;
+    position: absolute;
+    left: 33.667836192%;
+    background-image: url("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/VapeLogo2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Ah1i3 {
+    height: 4.016371461%;
+    width: 7.259021225%;
+    position: absolute;
+    right: 16.393865438%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/DiscordIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Ah1i4 {
+    height: 4.5%;
+    width: 6.423559295%;
+    position: absolute;
+    right: 5.044252172%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/SettingsWheel2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
