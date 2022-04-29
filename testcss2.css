@@ -1,3 +1,18 @@
-body {
-  background-color: blue !important;
+.AFrame {
+  user-select: none;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background: #252525;
+  color: #A2A1A1;
+  letter-spacing: .01rem;
+  /**/
+  flex-flow: column nowrap;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: .655vmin;
+  overflow: hidden;
+  transition: opacity .3s ease-in-out;
 }
