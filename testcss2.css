@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap')
+}
+
 .AFrame {
     user-select: none;
     box-sizing: border-box;
@@ -119,6 +124,96 @@
     position: absolute;
     right: 5.044252172%;
     background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/SettingsWheel2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.As {
+    height: 0.4375%;
+    background: #252525;
+    z-index: 110;
+}
+
+.Am {
+    height: 10%;
+    background: #1E1E1F;
+    z-index: 110;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: inherit;
+}
+
+.Ah1m1i {
+    height: 20%;
+    width: 5.911230856%;
+    position: absolute;
+    left: 4.55291782%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/CombatIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Ah1m2i {
+    height: 20%;
+    width: 6.407760835%;
+    position: absolute;
+    left: 4.55291782%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/BlatantIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Ah1m3i {
+    height: 20%;
+    width: 6.809732741%;
+    position: absolute;
+    left: 4.55291782%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/RenderIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Ah1m4i {
+    height: 20%;
+    width: 6.85702846%;
+    position: absolute;
+    left: 4.55291782%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/UtilityIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Ah1m5i {
+    height: 20%;
+    width: 6.439291314%;
+    position: absolute;
+    left: 4.55291782%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/WorldIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Amt {
+    width: 1%;
+    position: absolute;
+    left: 14.656674785%;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Ami2 {
+    height: 20%;
+    width: 1.820659971%;
+    position: absolute;
+    right: 4.537819892%;
+    background-image: url(https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/assets/RightArrow.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
